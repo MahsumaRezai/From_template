@@ -47,3 +47,20 @@ body {
 
     }
 }
+// seclect 
+.select {
+    display: block;
+    flex-direction: column;
+
+    &__title {
+        text-align: left;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        padding-bottom: 5px;
+    }
+}
+.sele {
+    width: 380px;
+    height: 50px;
+}
