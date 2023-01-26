@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Netflix</title>
+    <title>form</title>
 </head>
 
 <body>
@@ -16,15 +16,15 @@
             <!--form section-->
             <div class="input">
                 <div class="input__title">Username:</div>
-                <input type="text" placeholder="Enter Username" class="input__data">
+                <input type="text" placeholder="Enter Username" class="input__data" required>
             </div>
             <div class="input">
                 <div class="input__title">Email id:</div>
-                <input type="text" placeholder="Enter Email" class="input__data">
+                <input type="text" placeholder="Enter Email" class="input__data" required>
             </div>
             <div class="input">
                 <div class="input__title">Password:</div>
-                <input type="text" placeholder="Enter Password" class="input__data">
+                <input type="text" placeholder="Enter Password" class="input__data" required>
             </div>
             <!--select section-->
             <div class="select">
@@ -58,7 +58,9 @@
             <!--button section-->
             <div class="button">
                 <button class="button__btn"><a href="#" class="button__link">submit</a></button>
-                <span><a href="#" class="button__link--blue">Password</a></span>
+                <span><a href="#" class="button__link--blue" id="link" onclick="">Password</a></span>
+
+
             </div>
 
 
