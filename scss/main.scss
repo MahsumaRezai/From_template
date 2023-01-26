@@ -3,3 +3,47 @@
     padding:0;
     margin: 0%
 }
+body {
+    background: #e3e3e3;
+    
+
+}
+.container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    width: 450px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    height: 600px;
+    margin-top: 100px
+    
+
+}
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 15px;
+
+}
+// input 
+.input {
+    &__data {
+        width: 400px;
+        height: 50px;
+        font-family: sans-serif;
+        border: unset;
+        padding-left: 10px;
+    }
+    &__title {
+        font-family: sans-serif;
+        font-size: 15px;
+        padding-bottom: 5px;
+        font-weight: bold;
+
+    }
+}
