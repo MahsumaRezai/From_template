@@ -1,4 +1,5 @@
 function sound() {
-    alert("Hello form the js code")
+alert("Hello everyone ")
 }
-let tim = setTimeout(2000, sound)
+const fun = document.querySelector('button');
+fun.addEventListener('click',sound)
