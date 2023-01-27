@@ -6,17 +6,6 @@
 body {
   background: #e3e3e3; }
 
-.container {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  background: lightblue;
-  width: 450px;
-  margin: 0 auto;
-  box-shadow: 10px 10px 5px #aaaaaa;
-  height: 600px;
-  margin-top: 100px; }
-
 .form-section {
   display: flex;
   flex-direction: column;
@@ -69,3 +58,14 @@ body {
     text-decoration: crimson;
     font-size: 15px;
     font-family: sans-serif; }
+
+.container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  width: 450px;
+  margin: 0 auto;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  height: 600px;
+  margin-top: 100px; }

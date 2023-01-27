@@ -1,0 +1,66 @@
+
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 15px;
+}
+// input 
+.input {
+    &__data {
+        width: 400px;
+        height: 50px;
+        font-family: sans-serif;
+        border: unset;
+        padding-left: 10px;
+    }
+    &__title {
+        font-family: sans-serif;
+        font-size: 15px;
+        padding-bottom: 5px;
+        font-weight: bold;
+    }
+}
+// seclect 
+.select {
+    display: block;
+    flex-direction: column;
+
+    &__title {
+        text-align: left;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        padding-bottom: 5px;
+    }
+}
+.sele {
+    width: 380px;
+    height: 50px;
+}
+// button 
+.button {
+    gap: 10px;
+    display: flex;
+
+    &__btn {
+        background: #C1E1C1;
+        border:  1px solid #C1E1C1;
+        width: 70px;
+        height: 30px;
+        box-shadow: 2px 2px 2px 2px grey;
+    }
+    &__link {
+        color: black;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    &__link--blue {
+        text-decoration: crimson;
+        font-size: 15px;
+        font-family: sans-serif
+    }
+}
